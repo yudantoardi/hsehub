@@ -13,4 +13,9 @@ $(document).ready(function(){
         $(".search").addClass("active");
         $(".search input").focus();
     });
+
+    $(".burger").click(function(){
+        $($(this).children("i")).toggleClass("fa-bars fa-times")
+        $(".mob-nav-wrapper").toggleClass("active");
+    });
 });

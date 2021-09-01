@@ -848,7 +848,7 @@ footer .btn{
         padding-bottom: 10px;
     }
     .report-table table td:last-child{
-        border-bottom: 1px solid #efefef;
+        border-bottom: 1px solid #dedede;
     }
     .report-table table td span{
         display: inline-block;

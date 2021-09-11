@@ -231,6 +231,7 @@ li,p,td{
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 50px;
+    z-index: 3;
 }
 .search input{
     width: 40px;
@@ -818,6 +819,9 @@ figure{
     left: 0;
     z-index: 2;
 }
+.post.has-thumbnail .post-item:first-child .pic figure{
+    height: 100%;
+}
 .post.has-thumbnail .post-item:first-child .pic::before{
     content: "";
     width: 100%;
@@ -1003,6 +1007,27 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     height: 120px;
 }
 
+@media only screen and (max-width: 1366px){
+    .h-nav{
+        padding: 0 30px;
+    }
+    .logo{
+        width: 250px;
+    }
+    .mob-nav-wrapper{
+        width: calc(100% - 250px);
+    }
+    .h-nav .right-group{
+        width: 250px;
+    }
+    .search{
+        margin-left: 0;
+    }
+    .main-menu{
+        width: calc(100% - 250px);
+    }
+}
+
 @media only screen and (max-width: 1024px){
 
     .h-nav{
@@ -1043,6 +1068,9 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     .main-menu .menu-item a{
         padding: 15px 20px;
         border-bottom: 1px solid #efefef;
+    }
+    .main-menu .menu-item i{
+        float: right;
     }
     .search{
         width: 100%;
@@ -1174,7 +1202,43 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
         left: 0;
     }
 
+    .pagination{
+        margin-bottom: 30px;
+    }
 
+}
+
+@media only screen and (max-width:568px){
+    .post-item .pic{
+        width: 70px;
+        height: 70px;
+    }
+    .post.has-thumbnail .post-item:first-child .pic{
+        height: 360px;
+    }
+    .post .post-item .text p{
+        display: none;
+    }
+    .post.has-thumbnail .post-item .text{
+        width: calc(100% - 70px);
+    }
+    .post .post-item .text h2{
+        font-size: 18px;
+    }
+
+    .section-title h3{
+        font-size: 24px;
+    }
+    .article-ct blockquote{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .article-ct blockquote span.author{
+        font-size: 16px;
+    }
+    .article h1{
+        font-size: 28px;
+    }
 }
 
 

@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/owl.carousel.css">
     <link rel="stylesheet" href="asset/css/fontawesome-all.css">
-    <link rel="stylesheet" href="asset/css/daterangepicker.css">
     <link rel="stylesheet" href="asset/css/main.css">
 
 </head>
@@ -71,76 +70,93 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <form action="" class="form-laporan">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="widget-title">
-                                        <h3>Form Laporan</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label for="">Item Temuan</label>
-                                    <input type="text" placeholder="Tulis item temuan disini">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label for="">Lokasi</label>
-                                    <select name="" id="">
-                                        <option value="">Lokasi 1</option>
-                                        <option value="">Lokasi 2</option>
-                                        <option value="">Lokasi 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="">Tanggal</label>
-                                    <input type="text" name="tanggal"/>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label for="">Nama Pelapor</label>
-                                    <input type="text" placeholder="Nama pelapor">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label for="">Deskripsi Temuan</label>
-                                    <textarea name="" id="" cols="30" rows="4" placeholder="Deskripsikan temuan anda disini"></textarea>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label for="">Skala Prioritas</label>
-                                    <select name="" id="">
-                                        <option value="">Rendah</option>
-                                        <option value="">Sedang</option>
-                                        <option value="">Tinggi</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="">Kategori Temuan</label>
-                                    <select name="" id="">
-                                        <option value="">Kategori 1</option>
-                                        <option value="">Kategori 2</option>
-                                        <option value="">Kategori 3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label for="">Lampirkan Foto</label>
-                                    <input type="file" name="" id="">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <button class="btn">SUBMIT LAPORAN</button>
-                                </div>
-                            </div>
+                        <form action="" class="doc-src">
+                            <input type="text" placeholder="Pencarian...">
+                            <button><i class="fa fa-search"></i></button>
                         </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <table class="toggle-table" id="table-a">
+                            <tr>
+                                <th><span>A</span></th>
+                                <th>Nama Dokumen</th>
+                                <th>Update terakhir</th>
+                                <th>Download</th>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                        </table>
+
+                        <table class="toggle-table" id="table-b">
+                            <tr>
+                                <th><span>B</span></th>
+                                <th>Nama Dokumen</th>
+                                <th>Update terakhir</th>
+                                <th>Download</th>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-file"></i></td>
+                                <td><span>Nama Dokumen</span>Pendaftaran Hak Akses UMK</td>
+                                <td><span>Update Terakhir</span> 12 Sept 2021, 17:21 WIB</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                            </tr>
+                        </table>
+
                     </div>
                 </div>
             </div>
@@ -190,8 +206,6 @@
 
     <script src="asset/js/jquery-1.11.0.min.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
-    <script src="asset/js/moment.min.js"></script>
-    <script src="asset/js/daterangepicker.js"></script>
     <script src="asset/js/main.js"></script>
     <script>
         $(document).ready(function(){
@@ -201,13 +215,6 @@
                 pagination: false,
                 navigation: true,
                 autoPlay: true
-            });
-
-            $('input[name="tanggal"]').daterangepicker({
-                singleDatePicker: true,
-                showDropdowns: true,
-                minYear: 1901,
-                maxYear: parseInt(moment().format('YYYY'),10)
             });
 
         });

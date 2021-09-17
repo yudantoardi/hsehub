@@ -1094,6 +1094,66 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     color: var(--green);
 }
 
+.contact-info{
+    width: 100%;
+    float: left;
+}
+.contact-info li{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+.contact-info li i{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: var(--green);
+    color: #fff;
+    padding: 7px 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.contact-form{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #dedede;
+    background: #fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.contact-form input, 
+.contact-form textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 14px;
+}
+
+.maps{
+    width: 100%;
+    float: left;
+    border: 1px solid #dedede;
+    background: #fff;
+}
+.maps iframe{
+    width: 100%;
+    height: 540px;
+}
+
 @media only screen and (max-width: 1366px){
     .h-nav{
         padding: 0 30px;
